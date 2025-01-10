@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<!--htmlタグにThymeleafを使うことをブラウザに知らせるための
+属性を追加する-->
+<html xmlns:th="www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+  
+  <!--pタグでthymeleaf経由で渡される「message」という
+  変数の内容を表示するように記述-->
+  <p th:text="${message}" />
+
+</body>
+</html>
